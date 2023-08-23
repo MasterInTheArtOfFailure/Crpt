@@ -149,11 +149,11 @@ public class CrptApi {
         String documentFormat;//should be "MANUAL"
 
         @JsonProperty("product_document")
-
         String productDocument;//base64 encoded document
+
         @JsonProperty("product_group")
         String productGroup;//
-
+        @JsonProperty
         String type;//LP_INTRODUCE_GOODS
 
         String signature;
